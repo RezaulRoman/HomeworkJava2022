@@ -3,25 +3,27 @@ package hw5Q2Constructor;
 public class Computer {
 // Variable is declared
 	public String brandName;
-	public char grade;
-	public int price;
-	public boolean madeinUSA;
+	public String model;
 	public String operatingSystem;
+	public int price;
+	public char grade;
+	public boolean madeinUSA;
+
 //Declared one default constructor and one parameterized constructor
 	public Computer() {
-	System.out.println("The default cronstractor is from computer class ");
+		System.out.println("This is from default cronstractor of computer class ");
 
 	}
-	
-	public Computer(String brandName,char grade,int price,boolean madeinUSA,String operatingSystem) {
+
+	public Computer(String brandName, String model, String operatingSystem, int price, char grade, boolean MadeinUSA) {
 		this.brandName = brandName;
-		this.grade=grade;
-		this.price=price;
-		this.madeinUSA=madeinUSA;
-		this.operatingSystem=operatingSystem;
-		System.out.println("The computer name is:" +brandName+ ",Grade is:" +grade+ ",price is:" +price+ ",Madein USA? Ans:" +madeinUSA+ ",operatingSystem is:" +operatingSystem);
+		this.model = model;
+		this.operatingSystem = operatingSystem;
+		this.price = price;
+		this.grade = grade;
+		this.madeinUSA = madeinUSA;
+		System.out.println("My brand :" + brandName + ",Model :" + model + ", Operating System :" + operatingSystem
+				+ ",Price is :" + price + ", Grade is :" + grade + ",Made in USA? Ans :" + madeinUSA);
 	}
 
-
-		
-	}
+}
