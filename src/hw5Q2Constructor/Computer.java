@@ -22,5 +22,4 @@ public class Computer {
 		System.out.println("My brand: " + brandName + ",Model: " + model + ", Operating System: " + operatingSystem
 				+ ",Price is: " + price + ", Grade is: " + grade + " and Made in USA? Ans: " + madeinUSA);
 	}
-
 }
