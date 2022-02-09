@@ -3,7 +3,7 @@ package hw7Q2UseOfNestedIf;
 import java.util.Scanner;
 
 public class DiabeticCondition {
-   public static void main(String[] args) {
+	public static void main(String[] args) {
 		System.out.println("<-- Please Enter Your Hemoglobin A1C value below-->");
 		Scanner scanner = new Scanner(System.in);
 		double hbga1c = scanner.nextDouble();
