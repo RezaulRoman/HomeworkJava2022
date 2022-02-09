@@ -18,5 +18,4 @@ public class DiabeticCondition {
 		}
 		scanner.close();
 	}
-
 }
