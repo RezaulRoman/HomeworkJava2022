@@ -1,5 +1,6 @@
-package hw8Q3Abstraction;
+package hw9Q3Abstraction;
 
 public interface AeronauticalSchool {
 	public void aeronauticalInfo();
+
 }
