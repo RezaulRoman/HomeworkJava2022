@@ -9,13 +9,14 @@ public class Employee {
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
 	public int getAge() {
 		return age;
 	}
-    public void setAge(int age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 	public char getSex() {
@@ -27,7 +28,7 @@ public class Employee {
 	public boolean isUsCitizen() {
 		return usCitizen;
 	}
-    public void setUsCitizen(boolean usCitizen) {
-		this.usCitizen = usCitizen;	
-}
+	public void setUsCitizen(boolean usCitizen) {
+		this.usCitizen = usCitizen;
+	}
 }
