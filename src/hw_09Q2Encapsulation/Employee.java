@@ -5,11 +5,16 @@ public class Employee {
 	private int age;
 	private char sex;
 	private boolean usCitizen;
+	/* first select variable, then right click, then source,
+	 * then Generate Getters and Setters,then you could select how many  variables
+	 * you want to select.
+	 * then insertion point: after the last variable present inside the class
+	 * sorts by: Fields in getter/setter pair
+     */
 
 	public String getName() {
 		return name;
 	}
-
 	public void setName(String name) {
 		this.name = name;
 	}

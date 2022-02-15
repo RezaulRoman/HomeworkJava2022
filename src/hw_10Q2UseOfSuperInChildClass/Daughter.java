@@ -5,10 +5,10 @@ public class Daughter extends Father {
 	public int age;
 	
 	public Daughter() {
-	super("Jack",50,'F',false);
-	super.FamilyName="Jack";
-	System.out.println("Name: "+ FamilyName);
-	System.out.println("This default constractor came  from Daughter class");	
+	    super("Jack",50,'F',false);
+	    super.FamilyName="Jack";
+	    System.out.println("Name: "+ FamilyName);
+	    System.out.println("This default constractor came  from Daughter class");	
 	}
 	public Daughter(String birthMonth, int age) {
 		super("Pitbull",80,'M',true);
